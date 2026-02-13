@@ -1,0 +1,101 @@
+body {
+    background-color: #ffe6f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: row;
+    align-items: end;
+    flex-wrap: wrap;
+}
+
+#no-button {
+    border-radius: 8px;
+    padding: 12px 25px;
+    margin: 0 10px;
+    color: #ffffff;
+    background-color: #666;
+    height: 40px !important;
+    width: auto;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+
+    p {
+        margin: 0;
+        object-fit: contain;
+    }
+}
+
+#yes-button {
+    transition: width 0.3s ease, height 0.3s ease;
+    border-radius: 8px;
+    padding: 12px 25px;
+    margin: 0 10px;
+    color: #ffffff;
+    border: none;
+    background-color: #ff4da6;
+    cursor: pointer;
+    height: 40px;
+
+    p {
+        margin: 0;
+        object-fit: contain;
+    }
+}
+
+/* Make responsive for mobile */
+@media (max-width: 768px) {
+    body {
+        padding: 0 20px;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.message {
+    display: none;
+}
+
+.banner-gif {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+
+    img {
+        width: auto;
+        height: 250px;
+    }
+}
+
+
+/* CSS For Mobile */
+@media (max-width: 768px) {
+    .language-selector {
+        position: unset;
+        margin-top: 30px;
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
