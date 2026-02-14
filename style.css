@@ -89,6 +89,12 @@ body {
     white-space: nowrap;
 }
 
+#success-message {
+    font-size: clamp(24px, 6vw, 44px);
+    line-height: 1.3;
+    text-align: center;
+}
+
 
 /* CSS For Mobile */
 @media (max-width: 768px) {

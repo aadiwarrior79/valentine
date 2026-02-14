@@ -101,7 +101,6 @@ yes_button.addEventListener('click', () => {
     // show message div
     let message = document.getElementsByClassName('message')[0];
     message.style.display = "block";
-    message.style.fontSize = "20px";
 
     // Confetti burst
   confetti({
