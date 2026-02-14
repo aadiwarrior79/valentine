@@ -85,6 +85,10 @@ body {
     }
 }
 
+.emoji {
+    white-space: nowrap;
+}
+
 
 /* CSS For Mobile */
 @media (max-width: 768px) {
